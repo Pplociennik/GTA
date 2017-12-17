@@ -67,10 +67,14 @@ cout << "          " <<  "OCHRONA: " << player.getArmor();
 gotoxy(25, 2); cout << "BRON: " << player.getWeapon() << endl;
 cout << "----------------------------------------------------------------------------------------------------------------";
 
+        gotoxy(player.getX(), player.getY());
+        cout << player.getHairstyle();
+
     do
     {
         znak = getch();
         gotoxy(player.getX(), player.getY());
+        cout << playerc;
         if(znak == Up_g)
         {
             goUp(player.getX(), player.getY(), player.getHairstyle());

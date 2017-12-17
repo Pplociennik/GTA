@@ -32,7 +32,8 @@ void PauseMenu(Character player)
         break;
     case 4:
         system("cls");
-        Manual();
+        PauseMenu(player);
+        //Manual();
         break;
     case 9:
         system("cls");

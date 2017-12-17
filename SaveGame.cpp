@@ -163,7 +163,7 @@ void SaveGame(Character player)
             ASK_OVERWRITE:
             string read;
             system("cls");
-            cout << "Czy chcesz nadpisac zapisana gre? (T/N\n\n)" << "Wybor: ";
+            cout << "Czy chcesz nadpisac zapisana gre? (T/N)\n\n" << "Wybor: ";
             cin >> read;
             if(read == "T")
             {
@@ -207,7 +207,7 @@ void SaveGame(Character player)
         else
         {
             string read2;
-            cout << "Czy chcesz nadpisac zapisana gre? (T/N\n\n)" << "Wybor: ";
+            cout << "Czy chcesz nadpisac zapisana gre? (T/N)\n\n" << "Wybor: ";
             cin >> read2;
             if(read2 == "T")
             {
@@ -251,7 +251,7 @@ void SaveGame(Character player)
         else
         {
             string read3;
-            cout << "Czy chcesz nadpisac zapisana gre? (T/N\n\n)" << "Wybor: ";
+            cout << "Czy chcesz nadpisac zapisana gre? (T/N)\n\n" << "Wybor: ";
             cin >> read3;
 
             if(read3 == "T")
