@@ -22,7 +22,7 @@ void MainMenu(Character player)
         Options(player);
         break;
     case 4:
-        MainMenu(player);
+        Manual(player);
         break;
     case 5:
         MainMenu(player);

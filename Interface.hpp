@@ -164,6 +164,6 @@ void Loading();
 
 void LoadGame(Character player);
 
-void Manual();
+void Manual(Character player);
 
 void delete_save(Character player);
