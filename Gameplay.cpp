@@ -25,7 +25,6 @@ void load_config_g()
     int numer = 0;
 
     plik.open("config.txt",ios::in);
-   // Character player ("Tommy", '@');
 
     	fstream file;
 	vector <char> dane;
@@ -131,8 +130,5 @@ void start_new_game(Character player)
     player.setY(10);
     player.setHairstyle(createCharacter());
     play(player);
-
-
-//    zapisz(player.getName(), player.getWeapon(), player.getHitpoints(), player.getArmor(), player.getMoney(), player.getPistol(), player.getShotgun(), player.getGrenade(), player.getBazook(), player.getPistol_ammo(), player.getShotgun_ammo(), player.getGrenades(), player.getBazook_ammo(), player.getHairstyle(), player.getX(), player.getY());
 
 }
