@@ -16,7 +16,6 @@ void load_slot1(Character player)
 
     if(plik.good())
     {
-    // wczytujemy linie pliku do zmiennych
         while(getline(plik,linia))
         {
             switch(numer)
@@ -104,7 +103,6 @@ void load_slot2(Character player)
 
     if(plik.good())
     {
-    // wczytujemy linie pliku do zmiennych
         while(getline(plik,linia))
         {
             switch(numer)
@@ -199,7 +197,6 @@ void load_slot3(Character player)
 
     if(plik.good())
     {
-    // wczytujemy linie pliku do zmiennych
         while(getline(plik,linia))
         {
             switch(numer)
@@ -355,7 +352,7 @@ void save_slot3(string name, string weapon, int hitpoints, int armor, double mon
     plik.close();
 }
 
-void save_config(char up, char down, char left, char right)	//zapisywanie stanu gry
+void save_config(char up, char down, char left, char right)
 {
     fstream plik;
     plik.open("config.txt", ios::out);
