@@ -19,21 +19,16 @@ void load_config_c()
     int numer = 0;
 
     plik.open("config.txt",ios::in);
-   // Character player ("Tommy", '@');
 
     	fstream file;
 	vector <char> dane;
 	file.open ("config.txt", std::fstream::in);
 	char x;
-	while(file >>x){
+	while(file >> x){
 		dane.push_back(x);
 	}
 	file.close();
 system("cls");
-	for(int i = 0; i < dane.size(); i++)
-    {
-        cout << dane[i];
-    }
 
 	Up_c = dane[0];
 	//Up_g = dane[0];
@@ -48,7 +43,6 @@ system("cls");
 	//Right_g = dane[3];
 
         plik.close();
-        return;
     }
 
 void Controls(Character player)

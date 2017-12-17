@@ -25,7 +25,7 @@ void load_config_g()
     int numer = 0;
 
     plik.open("config.txt",ios::in);
-    Character player ("Tommy", '@');
+   // Character player ("Tommy", '@');
 
     	fstream file;
 	vector <char> dane;
