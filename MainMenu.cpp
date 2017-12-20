@@ -8,8 +8,10 @@ void MainMenu(Character player)
 {
     system("cls");
     int read;
-    cout << "-=GRIND TEST ACCESS=-\n\n" << "1. Nowa Gra\n" << "2. Wczytaj Gre\n" << "3. Opcje Gry\n" << "4. Instrukcja\n" << "5. Autor\n" << "6. Wyjdz z Gry\n\n" << "Wybierz opcje: ";
-    cin >> read;
+    cout << "-=GRIND TEST ACCESS=-\n\n" << "   Nowa Gra\n" << "   Wczytaj Gre\n" << "   Opcje Gry\n" << "   Instrukcja\n" << "   Autor\n" << "   Wyjdz z Gry";
+
+
+  read = MenuControls(2, 7);
 
     switch(read){
     case 1:

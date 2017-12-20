@@ -13,8 +13,10 @@ void PauseMenu(Character player)
     system("cls");
     int read;
 
-    cout << "1. Zapisz gre\n" << "2. Wczytaj Gre\n" << "3. Opcje Gry\n" << "4. Instrukcja\n\n\n" << "9. Menu Glowne\n" << "0. Wznow Gre\n\n" << "Wybor: ";
-    cin >> read;
+    cout << "PAUZA\n\n";
+    cout << "   Zapisz gre\n" << "   Wczytaj Gre\n" << "   Opcje Gry\n" << "   Instrukcja\n" << "   Menu Glowne\n" << "   Wznow Gre\n\n";
+
+    read = MenuControls(2, 7);
 
     switch(read)
     {
@@ -34,11 +36,11 @@ void PauseMenu(Character player)
         system("cls");
         Manual(player);
         break;
-    case 9:
+    case 5:
         system("cls");
         MainMenu(player);
         break;
-    case 0:
+    case 6:
         system("cls");
         play(player);
         break;

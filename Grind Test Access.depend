@@ -100,7 +100,7 @@
 	<iostream>
 	"Interface.hpp"
 
-1513537888 c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\interface.hpp
+1513792010 c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\interface.hpp
 	<iostream>
 
 1513527521 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\controls.cpp
@@ -149,7 +149,7 @@
 	<windows.h>
 	"Interface.hpp"
 
-1513537901 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\mainmenu.cpp
+1513792122 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\mainmenu.cpp
 	<iostream>
 	<windows.h>
 	"Interface.hpp"
@@ -160,12 +160,13 @@
 	<conio.h>
 	"Interface.hpp"
 
-1513508560 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\options.cpp
+1513792534 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\options.cpp
 	<iostream>
 	<windows.h>
+	<conio.h>
 	"Interface.hpp"
 
-1513537632 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\pausemenu.cpp
+1513793186 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\pausemenu.cpp
 	<iostream>
 	<windows.h>
 	<time.h>
@@ -174,7 +175,7 @@
 	<fstream>
 	"Interface.hpp"
 
-1513529665 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\savegame.cpp
+1513794142 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\savegame.cpp
 	<iostream>
 	<time.h>
 	<windows.h>
@@ -191,5 +192,12 @@
 
 1513037092 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\weapons.cpp
 	<iostream>
+	"Interface.hpp"
+
+1513792010 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\menuscontrols.cpp
+	<iostream>
+	<windows.h>
+	<stdio.h>
+	<conio.h>
 	"Interface.hpp"
 
