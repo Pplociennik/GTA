@@ -1,0 +1,203 @@
+# depslib dependency file v1.0
+1513512302 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\character.cpp
+	<iostream>
+	"Interface.hpp"
+
+1513518547 c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\interface.hpp
+	<iostream>
+
+1513508334 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\main.cpp
+	<iostream>
+	<windows.h>
+	"Interface.hpp"
+
+1513037092 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\weapons.cpp
+	<iostream>
+	"Interface.hpp"
+
+1513509125 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\mainmenu.cpp
+	<iostream>
+	<windows.h>
+	"Interface.hpp"
+
+1513295459 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\game.cpp
+	<iostream>
+	<string>
+	<time.h>
+	<windows.h>
+	<stdio.h>
+	"Interface.hpp"
+
+1513291979 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gamemechanics.cpp
+	<iostream>
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+	<dos.h>
+	<time.h>
+	<unistd.h>
+	"Interface.hpp"
+
+1513516258 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gameplay.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	<conio.h>
+	<vector>
+	<fstream>
+	"Interface.hpp"
+
+1513515065 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\savesystem.cpp
+	<iostream>
+	<cstdlib>
+	<windows.h>
+	<fstream>
+	<vector>
+	"Interface.hpp"
+
+1513508527 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\controls.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<vector>
+	<fstream>
+	"Interface.hpp"
+
+1513508560 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\options.cpp
+	<iostream>
+	<windows.h>
+	"Interface.hpp"
+
+1513284273 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\manual.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	"Interface.hpp"
+
+1513509133 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\pausemenu.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	<conio.h>
+	<vector>
+	<fstream>
+	"Interface.hpp"
+
+1513518682 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\savegame.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<fstream>
+	"Interface.hpp"
+
+1513296877 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\loadgame.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	"Interface.hpp"
+
+1513512302 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\character.cpp
+	<iostream>
+	"Interface.hpp"
+
+1513792010 c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\interface.hpp
+	<iostream>
+
+1513527521 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\controls.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<vector>
+	<fstream>
+	"Interface.hpp"
+
+1513519153 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\game.cpp
+	<iostream>
+	<string>
+	<time.h>
+	<windows.h>
+	<stdio.h>
+	"Interface.hpp"
+
+1513291979 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\gamemechanics.cpp
+	<iostream>
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+	<dos.h>
+	<time.h>
+	<unistd.h>
+	"Interface.hpp"
+
+1513529409 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\gameplay.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	<conio.h>
+	<vector>
+	<fstream>
+	"Interface.hpp"
+
+1513296877 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\loadgame.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	"Interface.hpp"
+
+1513526521 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\main.cpp
+	<iostream>
+	<windows.h>
+	"Interface.hpp"
+
+1513792122 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\mainmenu.cpp
+	<iostream>
+	<windows.h>
+	"Interface.hpp"
+
+1513538038 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\manual.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	"Interface.hpp"
+
+1513792534 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\options.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	"Interface.hpp"
+
+1513793186 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\pausemenu.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	<conio.h>
+	<vector>
+	<fstream>
+	"Interface.hpp"
+
+1513794142 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\savegame.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<fstream>
+	"Interface.hpp"
+
+1513533130 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\savesystem.cpp
+	<iostream>
+	<cstdlib>
+	<windows.h>
+	<fstream>
+	<vector>
+	"Interface.hpp"
+
+1513037092 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\weapons.cpp
+	<iostream>
+	"Interface.hpp"
+
+1513792010 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\menuscontrols.cpp
+	<iostream>
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+	"Interface.hpp"
+

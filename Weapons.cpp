@@ -51,7 +51,7 @@ string Weapons::getDescription()
     return description;
 }
 
-//classes of Weapons
+//methods of Weapons
 
 Pistol::Pistol(string na, int da, int ra, double co, string de)
     :Weapons(na, da, ra, co, de)
