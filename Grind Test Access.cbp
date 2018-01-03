@@ -40,6 +40,7 @@
 		<Unit filename="LoadGame.cpp" />
 		<Unit filename="MainMenu.cpp" />
 		<Unit filename="Manual.cpp" />
+		<Unit filename="MenusControls.cpp" />
 		<Unit filename="Options.cpp" />
 		<Unit filename="PauseMenu.cpp" />
 		<Unit filename="SaveGame.cpp" />

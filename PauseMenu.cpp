@@ -10,6 +10,8 @@ using namespace std;
 
 void PauseMenu(Character player)
 {
+ShowConsoleCursor(false);
+
     system("cls");
     int read;
 

@@ -5,9 +5,12 @@
 using namespace std;
 
 
-
 int main()
 {
+system("mode 1000");
+
+ShowConsoleCursor(false);
+
 load_config_c();
 load_config_g();
 Character player("Tommy", '@');

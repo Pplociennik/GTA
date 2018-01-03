@@ -8,6 +8,8 @@ using namespace std;
 
 void Options(Character player)
 {
+ShowConsoleCursor(false);
+
     char key;
 
     system("cls");

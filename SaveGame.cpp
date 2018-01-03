@@ -131,6 +131,8 @@ void load_slots_names()
 
 void SaveGame(Character player)
 {
+ShowConsoleCursor(false);
+
     system("cls");
     load_slots_names();
     int read;
@@ -285,6 +287,8 @@ void SaveGame(Character player)
 
 void LoadGame(Character player)
 {
+ShowConsoleCursor(false);
+
     load_slots_names();
     system("cls");
     int choose;

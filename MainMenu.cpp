@@ -6,6 +6,8 @@ using namespace std;
 
 void MainMenu(Character player)
 {
+ShowConsoleCursor(false);
+
     system("cls");
     int read;
     cout << "-=GRIND TEST ACCESS=-\n\n" << "   Nowa Gra\n" << "   Wczytaj Gre\n" << "   Opcje Gry\n" << "   Instrukcja\n" << "   Autor\n" << "   Wyjdz z Gry";

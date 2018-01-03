@@ -55,6 +55,8 @@ void load_config_g()
 void play(Character player)
 {
 
+ShowConsoleCursor(false);
+
     system("cls");
     load_config_g();
     x = player.getX();

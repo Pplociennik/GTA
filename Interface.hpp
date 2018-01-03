@@ -169,3 +169,5 @@ void Manual(Character player);
 void delete_save(Character player);
 
 int MenuControls(int bego, int endo);
+
+void ShowConsoleCursor(bool showFlag);
