@@ -51,6 +51,22 @@ void load_config_g()
         return;
     }
 
+    void changeX(Character player)
+    {
+        gotoxy(47, 1);
+        cout << "    ";
+        gotoxy(48, 1);
+        cout << player.getX();
+    }
+
+        void changeY(Character player)
+    {
+        gotoxy(47, 2);
+        cout << "    ";
+        gotoxy(48, 2);
+        cout << player.getY();
+    }
+
 
 void play(Character player)
 {
@@ -64,9 +80,11 @@ ShowConsoleCursor(false);
 
 cout << player.getName() << " " << player.getHairstyle() << endl;
 cout << "          " << "ZDROWIE: " << player.getHitpoints();
-gotoxy(25, 1); cout << "KASA: " << player.getMoney() << " $" <<  endl;
+gotoxy(25, 1); cout << "KASA: " << player.getMoney() << " $"; gotoxy(45, 1); cout << "X: " << player.getX() << endl;
 cout << "          " <<  "OCHRONA: " << player.getArmor();
-gotoxy(25, 2); cout << "BRON: " << player.getWeapon() << endl;
+gotoxy(25, 2); cout << "BRON: " << player.getWeapon(); gotoxy(45, 2); cout << "Y: " << player.getY() << endl;
+
+
 cout << "----------------------------------------------------------------------------------------------------------------";
 
         gotoxy(player.getX(), player.getY());
@@ -83,6 +101,7 @@ cout << "-----------------------------------------------------------------------
             y--;
             player.setX(x);
             player.setY(y);
+            changeY(player);
         }
         else if(znak == Left_g)
         {
@@ -90,6 +109,7 @@ cout << "-----------------------------------------------------------------------
             x--;
             player.setX(x);
             player.setY(y);
+            changeX(player);
         }
         else if(znak == Right_g)
         {
@@ -97,6 +117,8 @@ cout << "-----------------------------------------------------------------------
             x++;
             player.setX(x);
             player.setY(y);
+            changeX(player);
+
         }
         else if(znak == Down_g)
         {
@@ -104,6 +126,8 @@ cout << "-----------------------------------------------------------------------
             y++;
                 player.setX(x);
             player.setY(y);
+            changeY(player);
+
         }
         else if(znak == 27)
         {

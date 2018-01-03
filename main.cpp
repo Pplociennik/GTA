@@ -1,13 +1,15 @@
 #include <iostream>
 #include <windows.h>
+#include <conio.h>
 #include "Interface.hpp"
 
 using namespace std;
 
 
+
 int main()
 {
-system("mode 1000");
+system("mode con COLS=700");
 
 ShowConsoleCursor(false);
 
