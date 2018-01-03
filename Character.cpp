@@ -19,7 +19,7 @@ Character::Character(string n, char hair)
     grenades = 0;
     bazook_ammo = 0;
     x = 1;
-    y = 1;
+    y = 5;
     hairstyle = hair;
 }
 

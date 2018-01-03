@@ -171,3 +171,5 @@ void delete_save(Character player);
 int MenuControls(int bego, int endo);
 
 void ShowConsoleCursor(bool showFlag);
+
+void showMap(Character player);
