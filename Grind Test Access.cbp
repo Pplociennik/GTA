@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Author.cpp" />
 		<Unit filename="Character.cpp" />
 		<Unit filename="Controls.cpp" />
 		<Unit filename="Game.cpp" />
