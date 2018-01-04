@@ -14,7 +14,7 @@ int MenuControls(int bego, int endo)
 
     gotoxy(0, option);
     cout << "< ";
-    gotoxy(15, option);
+    gotoxy(20, option);
     cout << " >";
 
     do
@@ -26,14 +26,14 @@ int MenuControls(int bego, int endo)
             {
             gotoxy(0, option);
             cout << "  ";
-            gotoxy(15, option);
+            gotoxy(20, option);
             cout << "  ";
 
             option++;
 
             gotoxy(0, option);
             cout << "< ";
-            gotoxy(15, option);
+            gotoxy(20, option);
             cout << " >";
             }
         }
@@ -44,14 +44,14 @@ int MenuControls(int bego, int endo)
             {
                 gotoxy(0, option);
                 cout << "  ";
-                gotoxy(15, option);
+                gotoxy(20, option);
                 cout << "  ";
 
                 option--;
 
                 gotoxy(0, option);
                 cout << "< ";
-                gotoxy(15, option);
+                gotoxy(20, option);
                 cout << " >";
             }
         }

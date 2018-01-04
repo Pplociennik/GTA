@@ -10,7 +10,7 @@ ShowConsoleCursor(false);
 
     system("cls");
     int read;
-    cout << "-=GRIND TEST ACCESS=-\n\n" << "   Nowa Gra\n" << "   Wczytaj Gre\n" << "   Opcje Gry\n" << "   Instrukcja\n" << "   Autor\n" << "   Wyjdz z Gry";
+    cout << "-=GRIND TEST ACCESS=-\n\n" << "   Nowa Gra\n" << "   Wczytaj Gre\n" << "   Opcje Gry\n" << "   Instrukcja\n" << "   Autor\n" << "   Wyjdz z Gry\n\n\nW gore: [W]   W dol: [S]   Wybierz: [ENTER]";
 
 
   read = MenuControls(2, 7);
@@ -29,7 +29,7 @@ ShowConsoleCursor(false);
         Manual(player);
         break;
     case 5:
-        MainMenu(player);
+        Author(player);
         break;
     case 6:
         exit(0);

@@ -12,10 +12,10 @@ void Rules(Character player)
     system("cls");
     cout << "Witaj w Grind Test Acces! ...";
 
-    cout << endl << endl << "0. wroc\n\n" << "Wybor: ";
-    cin >> read;
+    cout << endl << endl << "   Wroc";
+    read = MenuControls(2, 2);
 
-    if(read == 0)
+    if(read == 1)
     {
         Manual(player);
     }
@@ -29,13 +29,13 @@ void Buildings(Character player)
     system("cls");
     cout << "OPIS BUDYNKOW\n\n\n";
     cout << "Sklep z bronia - Miejsce, w ktorym mozesz nabyc rozne rodzaje broni oraz amunicje do nich, a takze kamizelke kuloodporna\n\n";
-    cout << "Szpital - miejsce, w ktorym odradzasz sie po smierci. Uwaga! Personel szpitala to bardzo pazerne i niemile typki, ktore z checia pomocy maja malo wspolnego, dlatego pobieraja 300 $ za kazda usluge!\n\n";
+    cout << "Szpital - miejsce, w ktorym odradzasz sie po smierci.\nUwaga! Personel szpitala to bardzo pazerne i niemile typki, ktore z checia pomocy maja malo wspolnego, dlatego pobieraja 300 $ za kazda usluge!\n\n";
     cout << "Apteka - miejsce, w ktorym za drobna oplata mozesz uzupelnic swoje zdrowie\n\n\n";
-    cout << "0. wroc\n\n" << "Wybor: ";
+    cout << "   Wroc";
 
-    cin >> read;
+    read = MenuControls(11, 11);
 
-    if(read == 0)
+    if(read == 10)
     {
         Manual(player);
     }
@@ -53,10 +53,10 @@ void Weapons_types(Character player)
     cout << "Strzelba - zadaje duze obrazenia, ale tylko na niewielki dystans. Posiada jednak duzy rozrzut wystrzelanych pociskow\n\n";
     cout << "Granaty - Chyba wiadomo, co nie?\n\n";
     cout << "Bazooka - wystrzeliwuje rakiety, ktore po zderzeniu z osoba lub obiektem, tworza wielki wybuch\n\n\n";
-    cout << "0. wroc\n\n" << "Wybor: ";
-    cin >> read;
+    cout << "   Wroc";
+    read = MenuControls(12, 12);
 
-    if(read == 0)
+    if(read == 11)
     {
         Manual(player);
     }
@@ -69,18 +69,16 @@ void Manual(Character player)
 
     int read;
 
-    cout << "1. Zasady Gry\n";
-    cout << "2. Budynki\n";
-    cout << "3. Rodzaje Broni\n\n\n";
-    cout << "0. Menu Glowne\n\n" << "Wybor: ";
+    cout << "-=INSTRUKCJA=-\n\n";
+    cout << "   Zasady Gry\n";
+    cout << "   Budynki\n";
+    cout << "   Rodzaje Broni\n";
+    cout << "   Menu Glowne\n";
 
-    cin >> read;
+    read = MenuControls(2, 5);
 
     switch(read)
     {
-    case 0:
-        MainMenu(player);
-        break;
     case 1:
         Rules(player);
         break;
@@ -90,8 +88,8 @@ void Manual(Character player)
     case 3:
         Weapons_types(player);
         break;
-    default:
-        Manual(player);
+    case 4:
+        MainMenu(player);
         break;
     }
 }

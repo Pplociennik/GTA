@@ -17,11 +17,11 @@ using namespace std;
 
         system("cls");
 
-        cout << "Wybierz zapis do usuniecia:\n\n\n 1. " << slot1_name << endl << "2. " << slot2_name << endl << "3. " << slot3_name << "\n\n0. Opcje Gry\n" << "9. Menu Glowne" << "\n\n Wybor: ";
-        cin >> save;
+        cout << "Wybierz zapis do usuniecia:\n\n   1. " << slot1_name << endl << "   2. " << slot2_name << endl << "   3. " << slot3_name << "\n   Menu Glowne";
+        save = MenuControls(2, 5);
 
         string temp_slot_name;
-        string read;
+        int read;
         switch(save)
         {
         case 1:
@@ -33,10 +33,7 @@ using namespace std;
         case 3:
             temp_slot_name = slot3_name;
             break;
-        case 0:
-            Options(player);
-            break;
-        case 9:
+        case 4:
             MainMenu(player);
             break;
         default:
@@ -44,10 +41,10 @@ using namespace std;
             delete_save(player);
         }
         system("cls");
-        cout << "Czy na pewno chcesz usunac zapis '" << temp_slot_name << "' ? (T/N)\n\n Wybor: ";
-        cin >> read;
+        cout << "Czy na pewno chcesz usunac zapis '" << temp_slot_name << "' ?\n\n   TAK\n   NIE";
+        read = MenuControls(2, 3);
 
-        if(read == "T")
+        if(read == 1)
         {
             switch(save)
             {
@@ -68,7 +65,7 @@ using namespace std;
                 break;
             }
         }
-        else if(read == "N")
+        else if(read == 2)
         {
             system("cls");
             delete_save(player);
@@ -161,11 +158,11 @@ ShowConsoleCursor(false);
         }
         else
         {
-            string read;
+            int read;
             system("cls");
-            cout << "Czy chcesz nadpisac zapisana gre? (T/N)\n\n" << "Wybor: ";
-            cin >> read;
-            if(read == "T")
+            cout << "Czy chcesz nadpisac zapisana gre?\n\n" << "   TAK\n   NIE ";
+            read = MenuControls(2, 3);
+            if(read == 1)
             {
                             system("cls");
             cout << "Wpisz nazwe swojego zapisu: \n\n";
@@ -179,7 +176,7 @@ ShowConsoleCursor(false);
             save_slots_names(slot1_name, slot2_name, slot3_name);
             SaveGame(player);
             }
-            else if(read == "N")
+            else if(read == 2)
             {
                 system("cls");
                 SaveGame(player);
@@ -205,16 +202,17 @@ ShowConsoleCursor(false);
         }
         else
         {
-            string read2;
-            cout << "Czy chcesz nadpisac zapisana gre? (T/N)\n\n" << "Wybor: ";
-            cin >> read2;
-            if(read2 == "T")
+            int read2;
+            system("cls");
+            cout << "Czy chcesz nadpisac zapisana gre?\n\n" << "   TAK\n   NIE ";
+            read2 = MenuControls(2, 3);
+            if(read2 == 1)
             {
                             system("cls");
             cout << "Wpisz nazwe swojego zapisu: \n\n";
             cin >> slot2_name;
 
-            save_slot2(player.getName(), player.getWeapon(), player.getHP(), player.getArmor(), player.getMoney(), player.getPistol(), player.getShotgun(), player.getGrenade(), player.getBazook(), player.getPistol_ammo(), player.getShotgun_ammo(), player.getGrenades(), player.getBazook_ammo(), player.getHairstyle(), player.getX(), player.getY());	//zapisywanie stanu gry
+            save_slot1(player.getName(), player.getWeapon(), player.getHP(), player.getArmor(), player.getMoney(), player.getPistol(), player.getShotgun(), player.getGrenade(), player.getBazook(), player.getPistol_ammo(), player.getShotgun_ammo(), player.getGrenades(), player.getBazook_ammo(), player.getHairstyle(), player.getX(), player.getY());	//zapisywanie stanu gry
             system("cls");
             cout << "Gra zapisana!";
             Sleep(1000);
@@ -222,12 +220,13 @@ ShowConsoleCursor(false);
             save_slots_names(slot1_name, slot2_name, slot3_name);
             SaveGame(player);
             }
-            else if(read2 == "N")
+            else if(read2 == 2)
             {
                 system("cls");
                 SaveGame(player);
-            }        }
-    save_slots_names(slot1_name, slot2_name, slot3_name);
+            }
+            save_slots_names(slot1_name, slot2_name, slot3_name);
+
 
         break;
     case 3:
@@ -247,17 +246,17 @@ ShowConsoleCursor(false);
         }
         else
         {
-            string read3;
-            cout << "Czy chcesz nadpisac zapisana gre? (T/N)\n\n" << "Wybor: ";
-            cin >> read3;
-
-            if(read3 == "T")
+            int read3;
+            system("cls");
+            cout << "Czy chcesz nadpisac zapisana gre?\n\n" << "   TAK\n   NIE ";
+            read3 = MenuControls(2, 3);
+            if(read3 == 1)
             {
-                         system("cls");
+                            system("cls");
             cout << "Wpisz nazwe swojego zapisu: \n\n";
-            cin >> slot1_name;
+            cin >> slot3_name;
 
-            save_slot3(player.getName(), player.getWeapon(), player.getHP(), player.getArmor(), player.getMoney(), player.getPistol(), player.getShotgun(), player.getGrenade(), player.getBazook(), player.getPistol_ammo(), player.getShotgun_ammo(), player.getGrenades(), player.getBazook_ammo(), player.getHairstyle(), player.getX(), player.getY());	//zapisywanie stanu gry
+            save_slot1(player.getName(), player.getWeapon(), player.getHP(), player.getArmor(), player.getMoney(), player.getPistol(), player.getShotgun(), player.getGrenade(), player.getBazook(), player.getPistol_ammo(), player.getShotgun_ammo(), player.getGrenades(), player.getBazook_ammo(), player.getHairstyle(), player.getX(), player.getY());	//zapisywanie stanu gry
             system("cls");
             cout << "Gra zapisana!";
             Sleep(1000);
@@ -265,11 +264,13 @@ ShowConsoleCursor(false);
             save_slots_names(slot1_name, slot2_name, slot3_name);
             SaveGame(player);
             }
-            else if(read3 == "N")
+            else if(read3 == 2)
             {
                 system("cls");
                 SaveGame(player);
             }
+            save_slots_names(slot1_name, slot2_name, slot3_name);
+
         }
             save_slots_names(slot1_name, slot2_name, slot3_name);
 
@@ -283,6 +284,7 @@ ShowConsoleCursor(false);
         PauseMenu(player);
         break;
     }
+}
 }
 
 void LoadGame(Character player)

@@ -52,38 +52,37 @@ void Controls(Character player)
     int read;
     system("cls");
     cout << "STEROWANIE\n\n"<< "Wybierz akcje aby zmienic przypisany klawisz\n\n";
-    cout << "1. Ruch w gore [" << Up_c << "]\n" << "2. Ruch w dol [" << Down_c << "]\n" << "3. Ruch w lewo [" << Left_c << "]\n" << "4. Ruch w prawo [" << Right_c << "]\n";
-    cin >> read;
+    cout << "   Ruch w gore [" << Up_c << "]\n" << "   Ruch w dol [" << Down_c << "]\n" << "   Ruch w lewo [" << Left_c << "]\n" << "   Ruch w prawo [" << Right_c << "]\n   Wroc";
+    read = MenuControls(4, 8);
 
     switch(read)
     {
-    case 0:
-        Options(player);
-    case 1:
+    case 3:
         cout << "Wybierz klawisz: ";
         cin >> Up_c;
         save_config(Up_c, Down_c, Left_c, Right_c);
         Controls(player);
         break;
-            case 2:
+            case 4:
         cout << "Wybierz klawisz: ";
         cin >> Down_c;
         save_config(Up_c, Down_c, Left_c, Right_c);
         Controls(player);
         break;
-            case 3:
+            case 5:
         cout << "Wybierz klawisz: ";
         cin >> Left_c;
         save_config(Up_c, Down_c, Left_c, Right_c);
         Controls(player);
         break;
-            case 4:
+            case 6:
         cout << "Wybierz klawisz: ";
         cin >> Right_c;
         save_config(Up_c, Down_c, Left_c, Right_c);
         Controls(player);
         break;
-    default:
-        MainMenu(player);
+    case 7:
+        Options(player);
+        break;
     }
 }

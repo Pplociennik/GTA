@@ -173,3 +173,6 @@ int MenuControls(int bego, int endo);
 void ShowConsoleCursor(bool showFlag);
 
 void showMap(Character player);
+
+void Author(Character player);
+

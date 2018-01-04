@@ -3,10 +3,10 @@
 	<iostream>
 	"Interface.hpp"
 
-1514998103 c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\interface.hpp
+1515061672 c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\interface.hpp
 	<iostream>
 
-1513527521 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\controls.cpp
+1515060339 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\controls.cpp
 	<iostream>
 	<windows.h>
 	<conio.h>
@@ -32,7 +32,7 @@
 	<unistd.h>
 	"Interface.hpp"
 
-1515007669 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\gameplay.cpp
+1515009027 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\gameplay.cpp
 	<iostream>
 	<windows.h>
 	<time.h>
@@ -53,12 +53,12 @@
 	<conio.h>
 	"Interface.hpp"
 
-1514994347 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\mainmenu.cpp
+1515061672 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\mainmenu.cpp
 	<iostream>
 	<windows.h>
 	"Interface.hpp"
 
-1513538038 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\manual.cpp
+1515061298 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\manual.cpp
 	<iostream>
 	<windows.h>
 	<conio.h>
@@ -79,7 +79,7 @@
 	<fstream>
 	"Interface.hpp"
 
-1514994367 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\savegame.cpp
+1515059577 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\savegame.cpp
 	<iostream>
 	<time.h>
 	<windows.h>
@@ -98,7 +98,7 @@
 	<vector>
 	"Interface.hpp"
 
-1513792010 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\menuscontrols.cpp
+1515060246 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\menuscontrols.cpp
 	<iostream>
 	<windows.h>
 	<stdio.h>
@@ -108,4 +108,10 @@
 1514998746 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\map.cpp
 	"Interface.hpp"
 	<iostream>
+
+1515061705 source:c:\users\win10\desktop\sudoku\#2\#2 codeblocks\grind test acces\gta\author.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	"Interface.hpp"
 
