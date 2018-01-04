@@ -159,16 +159,9 @@ void load_slot2(Character player)
                     break;
                 case 13:
                     {
-                    	fstream file;
-	vector <char> chary;
-	file.open ("save_slot1.txt", std::fstream::in);
-	char x;
-	while(file >>x){
-		chary.push_back(x);
-	}
-	file.close();
-	plik.close();
-                    player.setHairstyle(chary[27]);
+                        string n;
+                        n = linia.c_str();
+                        player.setHairstyle(n[0]);
                     }
                     break;
                 case 14:
@@ -252,16 +245,9 @@ void load_slot3(Character player)
                     break;
                 case 13:
                     {
-                    	fstream file;
-	vector <char> chary;
-	file.open ("save_slot1.txt", std::fstream::in);
-	char x;
-	while(file >>x){
-		chary.push_back(x);
-	}
-	file.close();
-	plik.close();
-                    player.setHairstyle(chary[27]);
+                        string n;
+                        n = linia.c_str();
+                        player.setHairstyle(n[0]);
                     }
                     break;
                 case 14:

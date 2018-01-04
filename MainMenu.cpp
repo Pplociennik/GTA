@@ -10,7 +10,7 @@ ShowConsoleCursor(false);
 
     system("cls");
     int read;
-    cout << "-=GRIND TEST ACCESS=-\n\n" << "   Nowa Gra\n" << "   Wczytaj Gre\n" << "   Opcje Gry\n" << "   Instrukcja\n" << "   Autor\n" << "   Wyjdz z Gry\n\n\nW gore: [W]   W dol: [S]   Wybierz: [ENTER]";
+    cout << "-=GRIND TEST ACCESS=-\n\n" << "   Nowa Gra\n" << "   Wczytaj Gre\n" << "   Opcje Gry\n" << "   Instrukcja\n" << "   Autor\n" << "   Wyjdz z Gry\n\n\nW gore: [W]   W dol: [S]   Wybierz: [ENTER]   Pauza (w grze): [ESC]";
 
 
   read = MenuControls(2, 7);

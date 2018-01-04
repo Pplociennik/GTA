@@ -256,7 +256,7 @@ ShowConsoleCursor(false);
             cout << "Wpisz nazwe swojego zapisu: \n\n";
             cin >> slot3_name;
 
-            save_slot1(player.getName(), player.getWeapon(), player.getHP(), player.getArmor(), player.getMoney(), player.getPistol(), player.getShotgun(), player.getGrenade(), player.getBazook(), player.getPistol_ammo(), player.getShotgun_ammo(), player.getGrenades(), player.getBazook_ammo(), player.getHairstyle(), player.getX(), player.getY());	//zapisywanie stanu gry
+            save_slot3(player.getName(), player.getWeapon(), player.getHP(), player.getArmor(), player.getMoney(), player.getPistol(), player.getShotgun(), player.getGrenade(), player.getBazook(), player.getPistol_ammo(), player.getShotgun_ammo(), player.getGrenades(), player.getBazook_ammo(), player.getHairstyle(), player.getX(), player.getY());	//zapisywanie stanu gry
             system("cls");
             cout << "Gra zapisana!";
             Sleep(1000);
