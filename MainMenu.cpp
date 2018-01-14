@@ -10,10 +10,10 @@ ShowConsoleCursor(false);
 
     system("cls");
     int read;
-    cout << "-=GRIND TEST ACCESS=-\n\n" << "   Nowa Gra\n" << "   Wczytaj Gre\n" << "   Opcje Gry\n" << "   Instrukcja\n" << "   Autor\n" << "   Wyjdz z Gry\n\n\nW gore: [W]   W dol: [S]   Wybierz: [ENTER]   Pauza (w grze): [ESC]";
+    cout << "-=GRIND TEST ACCESS=-\n\n" << "   Nowa Gra\n" << "   Wczytaj Gre\n" << "   Opcje Gry\n" << "   Instrukcja\n" << "   Autor\n" << "   Wyjdz z Gry\n   map_creator\n\n\nW gore: [W]   W dol: [S]   Wybierz: [ENTER]   Pauza (w grze): [ESC]";
 
 
-  read = MenuControls(2, 7);
+  read = MenuControls(2, 8);
 
     switch(read){
     case 1:
@@ -33,6 +33,8 @@ ShowConsoleCursor(false);
         break;
     case 6:
         exit(0);
+    case 7:
+        map_creator(player);
     default:
         option_error();
         MainMenu(player);

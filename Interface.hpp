@@ -176,3 +176,7 @@ void showMap(Character player);
 
 void Author(Character player);
 
+void map_creator(Character player);
+
+void showPlayer(Character player);
+

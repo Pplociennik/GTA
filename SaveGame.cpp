@@ -17,24 +17,45 @@ using namespace std;
 
         system("cls");
 
-        cout << "Wybierz zapis do usuniecia:\n\n   1. " << slot1_name << endl << "   2. " << slot2_name << endl << "   3. " << slot3_name << "\n   Menu Glowne";
-        save = MenuControls(2, 5);
+        cout << "Wybierz zapis do usuniecia:\n\n   1. " << slot1_name << endl << "   2. " << slot2_name << endl << "   3. " << slot3_name << "\n   Menu Glowne\n   Wczytaj Gre\n   Zapisz Gre";
+        save = MenuControls(2, 7);
 
         string temp_slot_name;
         int read;
         switch(save)
         {
         case 1:
-            temp_slot_name = slot1_name;
+            if(slot1_name == "Zapis 1")
+            {
+                option_error();
+                delete_save(player);
+            }
+            else{temp_slot_name = slot1_name;}
         break;
         case 2:
-            temp_slot_name = slot2_name;
+            if(slot2_name == "Zapis 2")
+            {
+                option_error();
+                delete_save(player);
+            }
+            else{temp_slot_name = slot2_name;}
             break;
         case 3:
-            temp_slot_name = slot3_name;
+            if(slot3_name == "Zapis 3")
+            {
+                option_error();
+                delete_save(player);
+            }
+            else{temp_slot_name = slot3_name;}
             break;
         case 4:
             MainMenu(player);
+            break;
+        case 5:
+            LoadGame(player);
+            break;
+        case 6:
+            SaveGame(player);
             break;
         default:
             option_error();
@@ -303,31 +324,50 @@ ShowConsoleCursor(false);
     switch(choose)
     {
     case 1:
-
+            if(slot1_name == "Zapis 1")
+            {
+                option_error();
+                LoadGame(player);
+            }
+            else{
         system("cls");
         	Loading();
 	system("cls");
 	Loading();
 	system("cls");
 	 load_slot1(player);
+            }
         break;
-    case 2:
 
+    case 2:
+        if(slot2_name == "Zapis 2")
+        {
+            option_error();
+            LoadGame(player);
+        }
+        else{
         system("cls");
         	Loading();
 	system("cls");
 	Loading();
 	system("cls");
         load_slot2(player);
+        }
         break;
     case 3:
-
+        if(slot3_name == "Zapis 3")
+        {
+            option_error();
+            LoadGame(player);
+        }
+        else{
         system("cls");
     Loading();
 	system("cls");
 	Loading();
 	system("cls");
         load_slot3(player);
+        }
         break;
     case 4:
         system("cls");
